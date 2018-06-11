@@ -42,13 +42,13 @@ import java.util.Collections;
  *
  * {@hide}
  */
-public class SC7730SRIL extends SamsungSPRDRIL implements CommandsInterface {
+public class SC7727SRIL extends SamsungSPRDRIL implements CommandsInterface {
 
-    public SC7730SRIL(Context context, int preferredNetworkType, int cdmaSubscription) {
+    public SC7727SRIL(Context context, int preferredNetworkType, int cdmaSubscription) {
         this(context, preferredNetworkType, cdmaSubscription, null);
     }
 
-    public SC7730SRIL(Context context, int preferredNetworkType,
+    public SC7727SRIL(Context context, int preferredNetworkType,
             int cdmaSubscription, Integer instanceId) {
         super(context, preferredNetworkType, cdmaSubscription, instanceId);
     }
